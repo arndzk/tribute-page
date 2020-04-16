@@ -17,6 +17,10 @@ html {
     margin-bottom: 0;
     color: #eee;
   }
+
+  h2 {
+      color: #eee;
+  }
   
   @media (max-width: 460px) {
     h1 {
@@ -25,16 +29,12 @@ html {
     }
   }
   
-  h2 {
-    font-size: 3.25rem;
-  }
-  
   a {
-    color: #477ca7;
+    color: #eee;
   }
   
   a:visited {
-    color: #74638f;
+    color: purple;
   }
   
   #main {
@@ -90,12 +90,5 @@ html {
   li {
     margin: 16px 0;
     color: #eee;
-  }
-  
-  blockquote {
-    font-style: italic;
-    max-width: 545px;
-    margin: 0 auto 50px auto;
-    text-align: left;
   }
   
